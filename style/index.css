@@ -19,14 +19,14 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	font-size: 62.5%;
 	font: inherit;
 	vertical-align: baseline;
 	font-family: 'Play', sans-serif;
 }
 header{
 	display: flex;
-	margin: 30px;
+	margin: 4%;
 	justify-content: space-between;
 	
 }
@@ -34,7 +34,7 @@ nav{
 	justify-content: flex-end;
 }
 h1{
-	font-size: 30px;
+	font-size: 2.5rem;
 	text-transform: uppercase;
 }
 a{
@@ -51,13 +51,13 @@ a{
 	justify-content: center;
 	align-items: center;
 	border-radius: 3px;
-	width: 60%;
-	height: 60vh;
+	width: 95%;
+	height: 70vh;
 	background-image: url("https://images.unsplash.com/photo-1519972064555-542444e71b54?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
 }
 h2{
 	margin-bottom: 30px;
-	font-size: 70px;
+	font-size: 4rem;
 }
 .titleDiv{
 	
@@ -71,21 +71,22 @@ h2{
 	display: flex;
 	justify-content: space-evenly;
 	flex-wrap: wrap;
-	width: 80%;
+	width: 90%;
 	margin: 0 auto;
 }
 .cardImg{
 	width: 400px;
-	padding: 10px;
+	
 	margin: 20px;
+	border-radius: 3px;
 }
 h5{
 	text-align: center;
 }
 footer{
-	height: 12vh;
-	background-color: #f0ebeb;
-	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+	margin-top: 5%;
 }
 .contactA{
 	display: flex;
@@ -97,4 +98,29 @@ footer{
 	display: flex;
 	justify-content: flex-end;
 	margin-top: 20px;
+}
+.infoLink{
+	margin: .75%;
+}
+@media(max-width: 800px){
+	nav{
+		display: flex;
+		flex-direction: column;
+	}
+	.navA{
+		margin-bottom: 4%;
+	}
+	h1{
+		margin-top: 45px;
+	}
+	.imgSection{
+		width: 85%;
+		height: 50vh;
+	}
+}
+@media(max-width: 580px){
+	h2{
+		font-size: 2.5rem;
+	}
+
 }
